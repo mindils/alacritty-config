@@ -5,11 +5,16 @@ TERM = "xterm-256color"
 padding.x = 10
 padding.y = 10
 
-decorations = "Buttonless"
-opacity = 0.8
+# for linux 
+# decorations = "none"
+
+# for macos 
+# decorations = "Buttonless"
+
+opacity = 0.95
 blur = true
 
 [font]
-normal.family = "JetBrainsMonoNL Nerd Font"
-size = 16.0
+normal.family = "JetBrainsMono Nerd Font"
+size = 12.0
 
